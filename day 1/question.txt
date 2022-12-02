@@ -1,0 +1,13 @@
+Map:
+Create a map for color(string) and its hex value(string) for example:
+"red" : "#ff0000"
+try to add new colors in the map, check for existing/non-existing entries and iterate the map to print it(via a function).
+
+Slice/Loops:
+Create a type deck which is a slice of strings like ["Spades", "Diamonds", "Hearts", "Clubs”]. Implement a method(for type deck) to print the slice, method for saving slice to file and loading a file to create a new deck. You can use "os" package(for file operations): https://pkg.go.dev/os#ReadFile
+
+Struct:
+Create two structs, one for a person(first, last name and contactDetails) and ContactDetails(email, phone). Initialize a person and update the name using a method(to person type) and print the updated name.
+
+Struct and Interface:
+Create an interface "shape" which has a function to get area and create two other structs for triangle and square. Implement the “getArea” method on these two structs and another method to print area for given shape.

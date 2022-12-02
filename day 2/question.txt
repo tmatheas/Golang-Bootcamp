@@ -1,0 +1,4 @@
+Implement the uniqueNames function(using TDD). When passed two slices of names, it will return a slice containing the names that appear in either or both slices. The returned slice should have no duplicates.
+For example, calling uniqueNames([]string{"Ava", "Emma", "Olivia"}, []string{"Olivia", "Sophia", "Emma"}) should return a slice containing Ava, Emma, Olivia, and Sophia in any order.
+
+Given two strings, calculate the number of characters which are not equal. For input: "hello" and "haylo" the output will be 2. The length of the string should be the same else return an error. Write test cases for the same.

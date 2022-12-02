@@ -1,0 +1,5 @@
+Import data from a CSV file which contains information related to books(title, author, genre, publisher) and later print it on console. Use TDD while solving this problem and check for code coverage.
+
+You can use the "os.Open" function to open the file(hint: os.Open returns a file type which implements io.Reader) and the "encoding/csv" package in golang to import csv data.
+
+File link: books.csv
